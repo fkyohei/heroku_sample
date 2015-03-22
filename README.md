@@ -38,18 +38,24 @@ For more information about using Ruby on Heroku, see these Dev Center articles:
 1. https://www.heroku.com/ アカウント作成
 2. heroku toolbar(https://toolbelt.heroku.com/) インストール
 3. ターミナルで  
-    ``$ heroku login``  
+    ```
+    $ heroku login
+    ```  
   で１で作成したアカウントを入力してログイン  
 
 今回はruby-sample(https://github.com/heroku/ruby-sample)を使用  
 bundleが入ってなければ  
-   ``$ sudo gem install bundler``  
+    ```
+    $ sudo gem install bundler
+    ```  
 でインストール  
 
-ソース  
-  ``$ git clone git://github.com/heroku/ruby-sample.git``  
-  ``$ bundle``  
-  ``$ heroku create``  
-  ``$ git add .``  
-  ``$ git commit -m 'initial commit'``  
-  ``$ git push heroku master``  
+ソース
+    ```
+    $ git clone git://github.com/heroku/ruby-sample.git
+    $ bundle
+    $ heroku create
+    $ git add .
+    $ git commit -m 'initial commit'
+    $ git push heroku master
+    ```
